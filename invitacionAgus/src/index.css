@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: sue ellen francisco;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(to right, #a7d5df, #afffa6, #d8afe4, #d64d9b);
+  background: linear-gradient(to right, #a7d5df, #d8afe4);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,11 +47,16 @@ button:focus-visible {
 
 .container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   height: 100vh;
+  width: 100%;
 }
 .paginaPrincipal,
 .cuando,
 .donde {
   height: 100%;
+  width: 100%;
+}
+.imgGrande {
+  width: 100%;
 }
