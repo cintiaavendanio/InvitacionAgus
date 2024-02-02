@@ -24,6 +24,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 0px;
 }
 
 button {
@@ -54,8 +55,24 @@ button:focus-visible {
 .paginaPrincipal,
 .cuando,
 .donde {
-  height: 100%;
+  height: 100vh;
   width: 100%;
+}
+
+.paginaPrincipal {
+  display: flex;
+  flex-direction: column;
+  place-content: flex-end;
+}
+.cuando {
+  display: flex;
+  flex-direction: column;
+}
+.cuandoTitulo {
+  flex: 25%;
+}
+.cuandoFecha {
+  flex: 75%;
 }
 .imgGrande {
   width: 100%;
