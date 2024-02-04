@@ -2,19 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Life+Savers:wght@400;700&family=Shadows+Into+Light+Two&family=Sue+Ellen+Francisco&display=swap"
       rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&family=Protest+Strike&display=swap"
+      rel="stylesheet"
     />
     <title>Invitacion Agus</title>
   </head>
-
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="container">
+      <div class="paginaPrincipal">
+        <img class="imgGrande" src="img/FDDTITULO.png" alt="" />
+        <img class="imgGrande" src="img/fotosAgus.png" alt="" />
+      </div>
+      <div class="cuando">
+        <h2>¿Cuándo?</h2>
+        <div class="cuandoFecha">
+          <h2 class="cuandoDia">24</h2>
+          <p class="cuandoMes">de</p>
+          <p class="cuandoMes">Febrero</p>
+          <p class="cuandoMes">del</p>
+          <p class="cuandoMes">2024</p>
+        </div>
+      </div>
+      <div class="donde">
+        <h2>¿Dónde?</h2>
+        <p>Catamarca 1829, Pérez</p>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.8757471641948!2d-60.77119468822641!3d-33.00705117483276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7b2780402002b%3A0x991263bf155406cc!2sCatamarca%201829%2C%20P%C3%A9rez%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1706836825841!5m2!1ses!2sar"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="infoColectivo">
+          <p>Si necesitas ir en colectivo podes ir en las líneas:</p>
+          <p>35/9 Pérez</p>
+          <p>33/9 Zavalla</p>
+          <p>
+            Y bajarte en la plaza de Pérez donde hay remisería en la esquina o
+            caminando todos juntos 🫶🏽
+          </p>
+        </div>
+      </div>
+      <div class="infoExtra">
+        <h2 class="queTraer">¿Qué tenes que traer?</h2>
+        <p>Bebida</p>
+        <p>Disfraz</p>
+        <p>Si no venis disfrazado...</p>
+        <img class="imgTabla" src="img/imgHayTabla.png" alt="" />
+      </div>
+      <div class="enlaces">
+        <div>
+          <p class="enlacesTitulo">Espacio para chusmear los disfraces...</p>
+          <a
+            class="enlacesButton"
+            href="https://docs.google.com/spreadsheets/d/1eTXb0Mx7jfXeul3XUVihzQyaPG0_bO_a5x3A53jPVgk/edit#gid=0"
+            target="_blank"
+            >Presiona aca no seas ortiba 🤨</a
+          >
+        </div>
+        <div>
+          <p class="enlacesTitulo">Confirmar asistencia por acá...</p>
+          <a
+            class="enlacesButton"
+            href="https://chat.whatsapp.com/F6BLrbpDFfkBQS3eCvwOp5"
+            target="_blank"
+            >Grupito piola 🤙</a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
